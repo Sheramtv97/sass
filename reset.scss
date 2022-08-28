@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans',sans-serif;
+}
+
+@mixin bor {
+  //width: 112px;
+  height: 52px;
+  padding: 10px 10px;
+  background: #3A68B8;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: .4s;
+}
+@mixin let {
+  width: 362px;
+  height: 389px;
+  border-radius: 10px;
+  background: rgba(45, 24, 82, 0.1);
+  border: 1px solid #3A68B8;
+  transition: .4s;
+}
